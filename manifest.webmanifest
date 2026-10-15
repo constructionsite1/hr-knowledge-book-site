@@ -1,0 +1,28 @@
+{
+ "name": "HR Knowledge Book",
+ "short_name": "HR Book",
+ "description": "HR knowledge for interviews and group discussions in India",
+ "start_url": "./index.html",
+ "scope": "./",
+ "display": "fullscreen",
+ "display_override": [
+  "fullscreen",
+  "standalone"
+ ],
+ "background_color": "#fbfaf7",
+ "theme_color": "#0b5560",
+ "icons": [
+  {
+   "src": "assets/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any maskable"
+  },
+  {
+   "src": "assets/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any maskable"
+  }
+ ]
+}

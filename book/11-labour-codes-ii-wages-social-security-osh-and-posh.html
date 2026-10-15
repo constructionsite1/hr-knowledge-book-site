@@ -2,26 +2,37 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Labour Codes II: Wages, Social Security, Working Conditions and POSH · HR Knowledge Book</title>
+<meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#15181b" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="HR Book">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
 <link rel="stylesheet" href="../assets/style.css">
 <script>try{var t=localStorage.getItem('hrkb-theme');if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
 </head>
 <body class="book">
 <a class="skip" href="#content">Skip to content</a>
 <header class="top">
-  <button class="menu" aria-label="Open chapter list" aria-expanded="false" aria-controls="nav">Chapters</button>
+  <button class="ib menu" type="button" aria-expanded="false" aria-controls="nav"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 6h16M4 12h16M4 18h16"/></svg><span class="bt">Chapters</span></button>
   <a class="brand" href="../index.html">HR Knowledge Book</a>
-  <div class="search">
+  <div class="search" role="search">
     <label for="q" class="vh">Search the book</label>
-    <input id="q" type="search" placeholder="Search topics, e.g. gratuity" autocomplete="off">
-    <ol id="results" class="results" hidden></ol>
+    <input id="q" type="search" placeholder="Search, e.g. gratuity" autocomplete="off" enterkeyhint="search"
+           role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="results">
+    <ol id="results" class="results" aria-label="Search results" hidden></ol>
   </div>
-  <button class="theme" aria-label="Switch light or dark theme">Theme</button>
+  <button class="ib fs" type="button" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 9V4h5M15 4h5v5M20 15v5h-5M9 20H4v-5"/></svg><span class="bt">Full screen</span></button>
+  <button class="ib theme" type="button" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8"/><path d="M12 4a8 8 0 0 0 0 16z" class="fill"/></svg><span class="bt">Dark mode</span></button>
 </header>
+<p id="sr-status" class="vh" role="status" aria-live="polite"></p>
 <div class="shell">
   <nav id="nav" class="nav" aria-label="Chapters"><ol class="chapters"><li><a class="bl" href="../book/00-start-here.html"><span class="cn">00</span>Start Here</a></li><li><a class="bl" href="../book/01-talent-acquisition.html"><span class="cn">01</span>Talent Acquisition</a><a class="nl" href="../notes/01-talent-acquisition.html">Notes</a></li><li><a class="bl" href="../book/02-compensation-and-benefits.html"><span class="cn">02</span>Compensation and Benefits</a><a class="nl" href="../notes/02-compensation-and-benefits.html">Notes</a></li><li><a class="bl" href="../book/03-performance-management.html"><span class="cn">03</span>Performance Management</a><a class="nl" href="../notes/03-performance-management.html">Notes</a></li><li><a class="bl" href="../book/04-learning-and-development.html"><span class="cn">04</span>Learning and Development</a><a class="nl" href="../notes/04-learning-and-development.html">Notes</a></li><li><a class="bl" href="../book/05-engagement-well-being-ex-and-evp.html"><span class="cn">05</span>Engagement, Well-being, Employee Experience and EVP</a><a class="nl" href="../notes/05-engagement-well-being-ex-and-evp.html">Notes</a></li><li><a class="bl" href="../book/06-org-design-job-architecture-and-workforce-planning.html"><span class="cn">06</span>Organisation Design, Job Architecture and Workforce Planning</a><a class="nl" href="../notes/06-org-design-job-architecture-and-workforce-planning.html">Notes</a></li><li><a class="bl" href="../book/07-ob-and-organisational-culture.html"><span class="cn">07</span>Organisational Behaviour and Culture</a><a class="nl" href="../notes/07-ob-and-organisational-culture.html">Notes</a></li><li><a class="bl" href="../book/08-change-management.html"><span class="cn">08</span>Change Management</a><a class="nl" href="../notes/08-change-management.html">Notes</a></li><li><a class="bl" href="../book/09-hr-analytics-hr-tech-and-ai.html"><span class="cn">09</span>HR Analytics, HR Technology and AI</a><a class="nl" href="../notes/09-hr-analytics-hr-tech-and-ai.html">Notes</a></li><li><a class="bl" href="../book/10-industrial-relations-and-the-ir-code.html"><span class="cn">10</span>Industrial Relations and the Industrial Relations Code</a><a class="nl" href="../notes/10-industrial-relations-and-the-ir-code.html">Notes</a></li><li><a class="bl" href="../book/11-labour-codes-ii-wages-social-security-osh-and-posh.html" aria-current="page"><span class="cn">11</span>Labour Codes II: Wages, Social Security, OSH and POSH</a><a class="nl" href="../notes/11-labour-codes-ii-wages-social-security-osh-and-posh.html">Notes</a></li><li><a class="bl" href="../book/12-gd-prep-india-hr-topics.html"><span class="cn">12</span>Group Discussions: India HR Topics</a><a class="nl" href="../notes/12-gd-prep-india-hr-topics.html">Notes</a></li></ol></nav>
-  <main id="content" class="content">
+  <main id="content" class="content" tabindex="-1">
     <p class="switch">Reading the <strong>full chapter</strong>. <a href="../notes/11-labour-codes-ii-wages-social-security-osh-and-posh.html">Switch to revision notes</a></p><details class="toc" open><summary>On this page</summary><ol><li><a href="#s-11-1">11.1 Why the Labour Codes, and where implementation stands</a></li><li><a href="#s-11-2">11.2 Code on Wages, 2019</a></li><li><a href="#s-11-3">11.3 Code on Social Security, 2020</a></li><li><a href="#s-11-4">11.4 Occupational Safety, Health and Working Conditions Code, 2020</a></li><li><a href="#s-11-5">11.5 Contract labour and inter-state migrant workers</a></li><li><a href="#s-11-6">11.6 Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013</a></li><li><a href="#s-11-7">11.7 Other laws HR must know</a></li><li><a href="#s-11-8">11.8 What HR must do under the Codes</a></li><li><a href="#s-11-9">11.9 Interview questions</a></li></ol></details>
     <article class="doc"><h1>Labour Codes II: Wages, Social Security, Working Conditions and POSH</h1><div class="chapter-meta">Chapter 11 · Employment Law</div><div class="scope">
 <p><strong>What this chapter covers.</strong> Why India consolidated its labour laws and where implementation stands; the Code on Wages, 2019; the Code on Social Security, 2020, including maternity benefit, employee compensation and the new framework for gig and platform workers; the Occupational Safety, Health and Working Conditions Code, 2020, including working hours, leave, women&rsquo;s employment, contract labour and inter-state migrant workers; the Sexual Harassment of Women at Workplace Act, 2013 (POSH); other laws HR must know; and a compliance agenda. Industrial relations under the IR Code is covered in Chapter 10. Payroll calculations for PF, ESI, gratuity and bonus are worked through in Chapter 2, Part 2.</p>
@@ -436,6 +447,7 @@
     <nav class="pn" aria-label="Chapter navigation"><a class="prev" href="../book/10-industrial-relations-and-the-ir-code.html"><span>Previous</span>Industrial Relations and the Industrial Relations Code, 2020</a><a class="next" href="../book/12-gd-prep-india-hr-topics.html"><span>Next</span>Group Discussions: India HR Topics</a></nav>
   </main>
 </div>
+<button class="exit-reading" type="button" hidden>Exit full screen</button>
 <script>window.HRKB_ROOT="../";</script>
 <script src="../assets/search-index.js"></script>
 <script src="../assets/app.js"></script>
