@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HR Analytics, HR Technology and AI · HR Knowledge Book</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script>try{var t=localStorage.getItem('hrkb-theme');if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
+</head>
+<body class="book">
+<a class="skip" href="#content">Skip to content</a>
+<header class="top">
+  <button class="menu" aria-label="Open chapter list" aria-expanded="false" aria-controls="nav">Chapters</button>
+  <a class="brand" href="../index.html">HR Knowledge Book</a>
+  <div class="search">
+    <label for="q" class="vh">Search the book</label>
+    <input id="q" type="search" placeholder="Search topics, e.g. gratuity" autocomplete="off">
+    <ol id="results" class="results" hidden></ol>
+  </div>
+  <button class="theme" aria-label="Switch light or dark theme">Theme</button>
+</header>
+<div class="shell">
+  <nav id="nav" class="nav" aria-label="Chapters"><ol class="chapters"><li><a class="bl" href="../book/00-start-here.html"><span class="cn">00</span>Start Here</a></li><li><a class="bl" href="../book/01-talent-acquisition.html"><span class="cn">01</span>Talent Acquisition</a><a class="nl" href="../notes/01-talent-acquisition.html">Notes</a></li><li><a class="bl" href="../book/02-compensation-and-benefits.html"><span class="cn">02</span>Compensation and Benefits</a><a class="nl" href="../notes/02-compensation-and-benefits.html">Notes</a></li><li><a class="bl" href="../book/03-performance-management.html"><span class="cn">03</span>Performance Management</a><a class="nl" href="../notes/03-performance-management.html">Notes</a></li><li><a class="bl" href="../book/04-learning-and-development.html"><span class="cn">04</span>Learning and Development</a><a class="nl" href="../notes/04-learning-and-development.html">Notes</a></li><li><a class="bl" href="../book/05-engagement-well-being-ex-and-evp.html"><span class="cn">05</span>Engagement, Well-being, Employee Experience and EVP</a><a class="nl" href="../notes/05-engagement-well-being-ex-and-evp.html">Notes</a></li><li><a class="bl" href="../book/06-org-design-job-architecture-and-workforce-planning.html"><span class="cn">06</span>Organisation Design, Job Architecture and Workforce Planning</a><a class="nl" href="../notes/06-org-design-job-architecture-and-workforce-planning.html">Notes</a></li><li><a class="bl" href="../book/07-ob-and-organisational-culture.html"><span class="cn">07</span>Organisational Behaviour and Culture</a><a class="nl" href="../notes/07-ob-and-organisational-culture.html">Notes</a></li><li><a class="bl" href="../book/08-change-management.html"><span class="cn">08</span>Change Management</a><a class="nl" href="../notes/08-change-management.html">Notes</a></li><li><a class="bl" href="../book/09-hr-analytics-hr-tech-and-ai.html" aria-current="page"><span class="cn">09</span>HR Analytics, HR Technology and AI</a><a class="nl" href="../notes/09-hr-analytics-hr-tech-and-ai.html">Notes</a></li><li><a class="bl" href="../book/10-industrial-relations-and-the-ir-code.html"><span class="cn">10</span>Industrial Relations and the Industrial Relations Code</a><a class="nl" href="../notes/10-industrial-relations-and-the-ir-code.html">Notes</a></li><li><a class="bl" href="../book/11-labour-codes-ii-wages-social-security-osh-and-posh.html"><span class="cn">11</span>Labour Codes II: Wages, Social Security, OSH and POSH</a><a class="nl" href="../notes/11-labour-codes-ii-wages-social-security-osh-and-posh.html">Notes</a></li><li><a class="bl" href="../book/12-gd-prep-india-hr-topics.html"><span class="cn">12</span>Group Discussions: India HR Topics</a><a class="nl" href="../notes/12-gd-prep-india-hr-topics.html">Notes</a></li></ol></nav>
+  <main id="content" class="content">
+    <p class="switch">Reading the <strong>full chapter</strong>. <a href="../notes/09-hr-analytics-hr-tech-and-ai.html">Switch to revision notes</a></p><details class="toc" open><summary>On this page</summary><ol><li><a href="#s-9-1">9.1 What HR analytics is</a></li><li><a href="#s-9-2">9.2 The analytics process</a></li><li><a href="#s-9-3">9.3 Data foundations</a></li><li><a href="#s-9-4">9.4 Statistical foundations</a></li><li><a href="#s-9-5">9.5 Key HR analyses</a></li><li><a href="#s-9-6">9.6 Metrics and dashboards</a></li><li><a href="#s-9-7">9.7 Well-known cases</a></li><li><a href="#s-9-8">9.8 HR technology</a></li><li><a href="#s-9-9">9.9 Artificial intelligence in HR</a></li><li><a href="#s-9-10">9.10 The Digital Personal Data Protection Act, 2023</a></li><li><a href="#s-9-11">9.11 Interview questions</a></li></ol></details>
+    <article class="doc"><h1>HR Analytics, HR Technology and AI</h1><div class="chapter-meta">Chapter 9 · HR Analytics, HR Technology and AI</div><div class="scope">
+<p><strong>What this chapter covers.</strong> The types and maturity of HR analytics; a structured analytics process; data foundations; the statistical ideas every HR professional needs; the main HR analyses (attrition, pay equity, selection, absenteeism, engagement, networks); metrics and dashboards; well-known cases; HR technology systems and their implementation; artificial intelligence in HR and its governance; and India&rsquo;s Digital Personal Data Protection Act, 2023 as it applies to employee data.</p>
+<p><strong>Why it matters for interviews.</strong> Employers increasingly expect HR graduates to use data. Expect questions such as &ldquo;How would you use analytics to reduce attrition?&rdquo;, &ldquo;What could go wrong with an AI model?&rdquo; and &ldquo;Do we need consent to process employee data?&rdquo;.</p>
+</div><h2 id="s-9-1"><span class="n">9.1</span>What HR analytics is</h2><div class="row"><div class="side">
+<p><strong>In short</strong></p>
+<p>HR analytics uses workforce data and statistical methods to improve people decisions. It progresses from describing what happened to recommending what to do.</p>
+<p><strong>Recall</strong></p>
+<ul>
+<li>Metrics vs analytics vs people analytics</li>
+<li>Descriptive, diagnostic, predictive, prescriptive</li>
+<li>Bersin&rsquo;s four levels</li>
+<li>Why it matters</li>
+</ul>
+</div><div class="main"><p><strong>Definitions.</strong> <strong>HR metrics</strong> are measures of HR activity and outcomes, such as attrition rate or time-to-fill. <strong>HR analytics</strong> (or <strong>people analytics</strong>) is the systematic use of workforce data, statistical analysis and increasingly machine learning to understand people-related outcomes and improve decisions. The term &ldquo;people analytics&rdquo; is often used for the broader, business-focused practice that combines HR data with operational and financial data.</p><h3>Types of analytics</h3><div class="tw"><table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Question</th>
+<th>HR example</th>
+<th>Typical methods</th>
+</tr>
+</thead>
+<tbody>
+<tr><td data-label="Type"><strong>Descriptive</strong></td><td data-label="Question">What happened?</td><td data-label="HR example">Attrition by department last quarter</td><td data-label="Typical methods">Reports, dashboards</td></tr>
+<tr><td data-label="Type"><strong>Diagnostic</strong></td><td data-label="Question">Why did it happen?</td><td data-label="HR example">Attrition is concentrated in three managers&rsquo; teams and among employees paid below 85% of their range midpoint</td><td data-label="Typical methods">Segmentation, correlation, driver analysis, text analysis of exit comments</td></tr>
+<tr><td data-label="Type"><strong>Predictive</strong></td><td data-label="Question">What is likely to happen?</td><td data-label="HR example">Probability that each employee will leave within six months</td><td data-label="Typical methods">Logistic regression, survival analysis, machine learning</td></tr>
+<tr><td data-label="Type"><strong>Prescriptive</strong></td><td data-label="Question">What should we do?</td><td data-label="HR example">Which retention action gives the best return for which group</td><td data-label="Typical methods">Optimisation, simulation, experiments</td></tr>
+</tbody>
+</table></div><p><strong>Maturity.</strong> Josh Bersin&rsquo;s widely used model describes four levels: (1) <strong>operational reporting</strong> (accurate basic reports), (2) <strong>advanced reporting</strong> (benchmarks, dashboards, trends), (3) <strong>strategic analytics</strong> (segmentation, causal analysis, linking people data to business outcomes) and (4) <strong>predictive analytics</strong> (forecasting and scenario modelling). Most organisations operate at levels 1 and 2; few sustain level 4.</p><p><strong>Why it matters.</strong> Analytics improves the quality of people decisions, gives HR evidence in business discussions, tests assumptions (managers&rsquo; beliefs about why people leave are often wrong), and targets scarce resources, such as retention budgets, where they have most effect.</p></div></div><h2 id="s-9-2"><span class="n">9.2</span>The analytics process</h2><div class="row"><div class="side">
+<p><strong>In short</strong></p>
+<p>Start with a business question and a decision, not with data. Follow a disciplined process from question to measured action.</p>
+<p><strong>Recall</strong></p>
+<ul>
+<li>Seven steps</li>
+<li>Business question first</li>
+<li>Hypotheses</li>
+<li>LAMP (Boudreau &amp; Ramstad)</li>
+</ul>
+</div><div class="main"><ol>
+<li><strong>Define the business question and the decision it will inform.</strong> &ldquo;Which plant operators are likely to leave in the next six months, and what would keep them?&rdquo; is better than &ldquo;build an attrition dashboard&rdquo;.</li>
+<li><strong>Form hypotheses</strong> from managers, research and experience: pay below market, shift patterns, commute distance, supervisor behaviour, lack of progression.</li>
+<li><strong>Gather and prepare data</strong> from the HRIS, payroll, attendance, performance, engagement surveys, exit data and external sources; clean, define and join it.</li>
+<li><strong>Analyse</strong>, starting with simple segmentation and visualisation before modelling.</li>
+<li><strong>Interpret</strong> with business context: is the effect large enough to matter, and is it causal?</li>
+<li><strong>Act</strong>: a small number of actions with owners and timelines.</li>
+<li><strong>Measure the effect</strong>, ideally by comparing a pilot group with a similar group that did not receive the intervention.</li>
+</ol><p><strong>The LAMP framework</strong> (John Boudreau and Peter Ramstad) holds that measurement improves decisions only when four elements are present: <strong>Logic</strong> (a clear model of how people factors drive business outcomes), <strong>Analytics</strong> (sound methods), <strong>Measures</strong> (reliable data) and <strong>Process</strong> (communication and decision processes that turn insight into action).</p></div></div><h2 id="s-9-3"><span class="n">9.3</span>Data foundations</h2><div class="row"><div class="side">
+<p><strong>In short</strong></p>
+<p>Analytics depends on accurate, consistently defined and lawfully used data. Most of the effort in real projects goes into data preparation.</p>
+<p><strong>Recall</strong></p>
+<ul>
+<li>Data sources</li>
+<li>Common definitions</li>
+<li>Quality problems</li>
+<li>Joining data</li>
+<li>Privacy by design</li>
+</ul>
+</div><div class="main"><div class="tw"><table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Typical data</th>
+</tr>
+</thead>
+<tbody>
+<tr><td data-label="Source">HRIS / HRMS</td><td data-label="Typical data">Employee master data, job, grade, location, manager, tenure, movements</td></tr>
+<tr><td data-label="Source">Payroll</td><td data-label="Typical data">Pay, allowances, increments, bonuses</td></tr>
+<tr><td data-label="Source">Time and attendance</td><td data-label="Typical data">Attendance, leave, overtime, shifts</td></tr>
+<tr><td data-label="Source">Performance and talent</td><td data-label="Typical data">Ratings, goals, potential, succession status</td></tr>
+<tr><td data-label="Source">Recruitment (ATS)</td><td data-label="Typical data">Source, time-to-hire, assessment scores</td></tr>
+<tr><td data-label="Source">Learning (LMS)</td><td data-label="Typical data">Courses, completions, assessments</td></tr>
+<tr><td data-label="Source">Engagement and surveys</td><td data-label="Typical data">Survey scores, comments, eNPS</td></tr>
+<tr><td data-label="Source">Exit data</td><td data-label="Typical data">Exit reasons, interviews</td></tr>
+<tr><td data-label="Source">Business systems</td><td data-label="Typical data">Productivity, sales, quality, safety, customer data</td></tr>
+</tbody>
+</table></div><p><strong>Common data problems:</strong> inconsistent definitions (does &ldquo;attrition&rdquo; include transfers and contract staff?), missing or outdated records, inconsistent job titles (one reason job architecture matters, Chapter 6), different employee identifiers across systems, and small groups that make results unstable or identify individuals.</p><p><strong>Privacy by design:</strong> use only the data needed for the purpose, aggregate where possible, restrict access, and follow the DPDP Act (Section 9.10).</p></div></div><h2 id="s-9-4"><span class="n">9.4</span>Statistical foundations</h2><div class="row"><div class="side">
+<p><strong>In short</strong></p>
+<p>A few statistical ideas prevent most analytical mistakes: distributions, correlation versus causation, regression, significance and sample size, and controlled comparison.</p>
+<p><strong>Recall</strong></p>
+<ul>
+<li>Mean vs median</li>
+<li>Correlation ≠ causation</li>
+<li>Linear vs logistic regression</li>
+<li>Multicollinearity (VIF)</li>
+<li>Statistical vs practical significance</li>
+<li>Confounding; Simpson&rsquo;s paradox</li>
+<li>Experiments and control groups</li>
+</ul>
+</div><div class="main"><div class="tw"><table>
+<thead>
+<tr>
+<th>Concept</th>
+<th>Meaning</th>
+<th>HR relevance</th>
+</tr>
+</thead>
+<tbody>
+<tr><td data-label="Concept"><strong>Mean and median</strong></td><td data-label="Meaning">Average; middle value</td><td data-label="HR relevance">Pay data is skewed by high earners, so medians are more representative</td></tr>
+<tr><td data-label="Concept"><strong>Distribution and variance</strong></td><td data-label="Meaning">Spread of values</td><td data-label="HR relevance">Rating distributions; pay dispersion within grades</td></tr>
+<tr><td data-label="Concept"><strong>Correlation</strong></td><td data-label="Meaning">Strength of linear association between two variables, from −1 to +1</td><td data-label="HR relevance">Engagement and productivity move together, but correlation alone does not show which causes which</td></tr>
+<tr><td data-label="Concept"><strong>Causation</strong></td><td data-label="Meaning">One variable changes another</td><td data-label="HR relevance">Established through experiments or careful designs that control other factors</td></tr>
+<tr><td data-label="Concept"><strong>Linear regression</strong></td><td data-label="Meaning">Models a continuous outcome (such as pay) as a function of several variables</td><td data-label="HR relevance">Pay-equity analysis</td></tr>
+<tr><td data-label="Concept"><strong>Logistic regression</strong></td><td data-label="Meaning">Models the probability of a yes/no outcome (such as leaving)</td><td data-label="HR relevance">Attrition risk models</td></tr>
+<tr><td data-label="Concept"><strong>Statistical significance</strong></td><td data-label="Meaning">Whether an observed effect is unlikely to be due to chance (often p &lt; 0.05)</td><td data-label="HR relevance">Small HR samples often produce unstable results</td></tr>
+<tr><td data-label="Concept"><strong>Practical significance</strong></td><td data-label="Meaning">Whether the effect is large enough to matter</td><td data-label="HR relevance">A statistically significant 0.5% pay difference may not justify action, while a 10% difference would</td></tr>
+<tr><td data-label="Concept"><strong>Confounding</strong></td><td data-label="Meaning">A third variable affects both the factor and the outcome</td><td data-label="HR relevance">Remote workers may appear to leave more because they are newer, not because they are remote</td></tr>
+<tr><td data-label="Concept"><strong>Simpson&rsquo;s paradox</strong></td><td data-label="Meaning">A trend in combined data reverses within subgroups</td><td data-label="HR relevance">Women may appear to be promoted less overall but at equal or higher rates within every function, because they are concentrated in functions with fewer promotions</td></tr>
+<tr><td data-label="Concept"><strong>Multicollinearity</strong></td><td data-label="Meaning">Predictors that are highly correlated with each other, making individual effects unreliable; checked with the variance inflation factor (VIF)</td><td data-label="HR relevance">Age and tenure in an attrition model</td></tr>
+<tr><td data-label="Concept"><strong>Experiments</strong></td><td data-label="Meaning">Randomly assigning a change to one group and comparing it with a control group</td><td data-label="HR relevance">Testing a new onboarding programme in some locations first</td></tr>
+</tbody>
+</table></div></div></div><h2 id="s-9-5"><span class="n">9.5</span>Key HR analyses</h2><div class="row"><div class="side">
+<p><strong>In short</strong></p>
+<p>The most common analyses are attrition drivers and risk, pay equity, selection validity, absenteeism, engagement–performance links and organisational networks.</p>
+<p><strong>Recall</strong></p>
+<ul>
+<li>Attrition: logistic regression, survival analysis</li>
+<li>Pay equity: regression on log pay</li>
+<li>Selection validity</li>
+<li>Bradford factor</li>
+<li>Engagement–performance</li>
+<li>ONA</li>
+<li>Ethical limits</li>
+</ul>
+</div><div class="main"><h3>Attrition analysis</h3><p><strong>Descriptive and diagnostic:</strong> segment attrition by role, tenure, manager, location, pay position, performance and engagement; compare leavers with stayers.</p><p><strong>Predictive:</strong> a <strong>logistic regression</strong> estimates each employee&rsquo;s probability of leaving from variables such as tenure, compa-ratio, time since last promotion, rating, manager change, commute distance, overtime and engagement score. The coefficients show which factors increase risk. <strong>Survival analysis</strong> models <em>when</em> people leave, which is useful for early attrition. Machine-learning models can improve prediction but are harder to explain.</p><p><strong>Interpretation example.</strong> A model shows that operators whose pay is below 90% of the range midpoint and who have had no skill progression in two years have roughly twice the attrition risk of others, holding other factors constant. The actions follow directly: a targeted pay correction and a skills-progression scheme, tested first in one plant.</p><p><strong>Ethical limit:</strong> risk scores should guide support (career conversations, pay review), never exclusion from opportunities, and individuals&rsquo; scores should not be shown to managers without safeguards.</p><h3>Pay-equity analysis</h3><p>Regress the <strong>logarithm of pay</strong> on legitimate factors (grade, job family, experience, performance rating, location) plus a gender indicator. The gender coefficient estimates the <strong>adjusted pay gap</strong>: the difference not explained by the legitimate factors. A large raw gap with a small adjusted gap points to representation problems (hiring and promotion) rather than pay setting (Chapter 2, Section 2.24).</p><h3>Other analyses</h3><div class="tw"><table>
+<thead>
+<tr>
+<th>Analysis</th>
+<th>Method</th>
+<th>Use and caution</th>
+</tr>
+</thead>
+<tbody>
+<tr><td data-label="Analysis"><strong>Selection validity</strong></td><td data-label="Method">Correlate assessment and interview scores with later performance and retention</td><td data-label="Use and caution">Shows which selection methods work; only hired candidates have outcomes, which understates validity</td></tr>
+<tr><td data-label="Analysis"><strong>Absenteeism</strong></td><td data-label="Method">Patterns by day, shift, supervisor and season; the <strong>Bradford factor</strong> = S² × D, where S is the number of spells and D the total days absent</td><td data-label="Use and caution">Highlights frequent short absences: ten one-day absences score 10² × 10 = 1,000, while one ten-day absence scores 1 × 10 = 10. Use for conversations, not automatic penalties, to avoid penalising genuine illness or disability</td></tr>
+<tr><td data-label="Analysis"><strong>Engagement and performance</strong></td><td data-label="Method">Link team engagement scores to productivity, quality, safety and customer measures</td><td data-label="Use and caution">Causality runs both ways</td></tr>
+<tr><td data-label="Analysis"><strong>Organisational network analysis (ONA)</strong></td><td data-label="Method">Map collaboration from surveys or communication metadata</td><td data-label="Use and caution">Identifies isolated teams and key connectors; needs a clear purpose, aggregation and transparency because of privacy</td></tr>
+<tr><td data-label="Analysis"><strong>Workforce planning</strong></td><td data-label="Method">Markov and scenario models (Chapter 6)</td><td data-label="Use and caution">Assumptions drive results</td></tr>
+</tbody>
+</table></div></div></div><h2 id="s-9-6"><span class="n">9.6</span>Metrics and dashboards</h2><div class="row"><div class="side">
+<p><strong>In short</strong></p>
+<p>A good dashboard shows a few decision-relevant metrics, with trends, targets and segments, for a specific audience.</p>
+<p><strong>Recall</strong></p>
+<ul>
+<li>Core HR metrics and formulas</li>
+<li>Dashboard design principles</li>
+<li>Audiences: board, business, HR</li>
+<li>Limitations</li>
+</ul>
+</div><div class="main"><h3>Core metrics</h3><div class="tw"><table>
+<thead>
+<tr>
+<th>Area</th>
+<th>Metric</th>
+<th>Formula or definition</th>
+</tr>
+</thead>
+<tbody>
+<tr><td data-label="Area">Workforce</td><td data-label="Metric">Headcount and FTE</td><td data-label="Formula or definition">Count at a date; FTE adjusts for part-time staff</td></tr>
+<tr><td data-label="Area">Retention</td><td data-label="Metric">Attrition rate</td><td data-label="Formula or definition">Separations ÷ average headcount × 100</td></tr>
+<tr><td data-label="Area">Retention</td><td data-label="Metric">Regretted attrition</td><td data-label="Formula or definition">Voluntary exits of employees the organisation wanted to keep ÷ average headcount</td></tr>
+<tr><td data-label="Area">Hiring</td><td data-label="Metric">Time-to-fill; cost-per-hire; quality of hire</td><td data-label="Formula or definition">Chapter 1, Section 1.10</td></tr>
+<tr><td data-label="Area">Pay</td><td data-label="Metric">Compa-ratio; personnel cost ratio</td><td data-label="Formula or definition">Salary ÷ midpoint; employee cost ÷ revenue</td></tr>
+<tr><td data-label="Area">Productivity</td><td data-label="Metric">Revenue per employee; human capital ROI</td><td data-label="Formula or definition">Revenue ÷ FTE; (revenue − (operating expenses − employee costs)) ÷ employee costs</td></tr>
+<tr><td data-label="Area">Engagement</td><td data-label="Metric">Engagement index; eNPS</td><td data-label="Formula or definition">Chapter 5</td></tr>
+<tr><td data-label="Area">Learning</td><td data-label="Metric">Training hours; application rate</td><td data-label="Formula or definition">Chapter 4</td></tr>
+<tr><td data-label="Area">Diversity</td><td data-label="Metric">Representation by level; pay gap</td><td data-label="Formula or definition">Share of women and other groups at each level</td></tr>
+<tr><td data-label="Area">Absence</td><td data-label="Metric">Absenteeism rate</td><td data-label="Formula or definition">Days absent ÷ scheduled working days × 100</td></tr>
+</tbody>
+</table></div><h3>Dashboard design</h3><ul>
+<li><strong>Start from decisions.</strong> Each metric should prompt a question or action for its audience.</li>
+<li><strong>Few metrics:</strong> 6–10 for a leadership dashboard, with drill-downs for detail.</li>
+<li><strong>Context:</strong> show trends over time, targets or benchmarks, and segments.</li>
+<li><strong>Consistency:</strong> shared definitions across the organisation.</li>
+<li><strong>Readable design:</strong> clear labels, minimal decoration, colour used only to flag exceptions.</li>
+</ul><div class="tw"><table>
+<thead>
+<tr>
+<th>Audience</th>
+<th>Typical content</th>
+</tr>
+</thead>
+<tbody>
+<tr><td data-label="Audience">Board and CEO</td><td data-label="Typical content">Headcount and cost, revenue per employee, regretted attrition, bench strength for critical roles, engagement, safety (for plants), diversity</td></tr>
+<tr><td data-label="Audience">Business leaders</td><td data-label="Typical content">Open positions and time-to-fill, attrition by team, performance distribution, overtime, absenteeism</td></tr>
+<tr><td data-label="Audience">HR centres of excellence</td><td data-label="Typical content">Recruitment funnel, compa-ratio distributions, learning reach and application</td></tr>
+</tbody>
+</table></div><p><strong>Limitations:</strong> dashboards depend on data quality and integration, can be costly to build, and are often not used if they do not answer leaders&rsquo; questions. They report compliance status but do not ensure compliance.</p></div></div><h2 id="s-9-7"><span class="n">9.7</span>Well-known cases</h2><div class="row"><div class="side">
+<p><strong>In short</strong></p>
+<p>Documented cases show analytics changing beliefs, cutting costs and improving fairness, and also the need to treat vendor claims carefully.</p>
+<p><strong>Recall</strong></p>
+<ul>
+<li>Google Project Oxygen (2008–09)</li>
+<li>Google: four interviews</li>
+<li>IBM attrition prediction (2019)</li>
+<li>Salesforce pay audits (from 2015)</li>
+</ul>
+</div><div class="main"><div class="tw"><table>
+<thead>
+<tr>
+<th>Case</th>
+<th>What was done</th>
+<th>Point it illustrates</th>
+</tr>
+</thead>
+<tbody>
+<tr><td data-label="Case"><strong>Google Project Oxygen</strong> (2008–09)</td><td data-label="What was done">Google&rsquo;s people analytics team tested whether managers matter, using performance reviews, feedback surveys and award nominations. They found that managers did affect team performance and retention, and identified eight (later ten) behaviours of effective managers, such as being a good coach, empowering the team without micromanaging and expressing interest in team members&rsquo; success. The findings were built into manager feedback and training</td><td data-label="Point it illustrates">Analytics can test assumptions and change practice</td></tr>
+<tr><td data-label="Case"><strong>Google&rsquo;s interview research</strong></td><td data-label="What was done">Analysis of hiring data found that four interviews predicted hiring decisions about as accurately as more, so Google reduced the number of interviews and dropped brain-teaser questions that did not predict performance</td><td data-label="Point it illustrates">Analytics reduces cost and improves candidate experience</td></tr>
+<tr><td data-label="Case"><strong>IBM</strong></td><td data-label="What was done">IBM&rsquo;s then chief executive said in 2019 that the company&rsquo;s AI could predict which employees were about to leave with about 95% accuracy and had saved about US$300 million in retention costs</td><td data-label="Point it illustrates">Prediction has value only when paired with action; the figures are IBM&rsquo;s own</td></tr>
+<tr><td data-label="Case"><strong>Salesforce</strong></td><td data-label="What was done">Annual pay audits since 2015, adjusting pay for employees where unexplained gaps by gender or ethnicity were found</td><td data-label="Point it illustrates">Analytics as a tool for fairness</td></tr>
+</tbody>
+</table></div><div class="note fix">
+<p><span class="label">Correction</span>The compendium (pp. 100–101) lists applications attributed to Under Armour, AON, Netflix, LinkedIn and Amazon without sources, most of which could not be verified. The cases above are well documented.</p>
+</div></div></div><h2 id="s-9-8"><span class="n">9.8</span>HR technology</h2><div class="row"><div class="side">
+<p><strong>In short</strong></p>
+<p>HR technology runs from core records (HRIS) to process suites (HRMS) and talent platforms (HCM). Implementations succeed when processes are redesigned and adoption is managed.</p>
+<p><strong>Recall</strong></p>
+<ul>
+<li>HRIS, HRMS, HCM</li>
+<li>ATS, LMS/LXP, payroll, engagement tools</li>
+<li>ESS and MSS</li>
+<li>Indian vendors</li>
+<li>Implementation steps</li>
+<li>Failure reasons</li>
+</ul>
+</div><div class="main"><h3>Systems</h3><div class="tw"><table>
+<thead>
+<tr>
+<th>System</th>
+<th>Scope</th>
+<th>Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr><td data-label="System"><strong>HRIS</strong> (human resource information system)</td><td data-label="Scope">Core employee data: records, organisation structure, job and pay history, attendance and leave</td><td data-label="Examples">Core modules of most suites</td></tr>
+<tr><td data-label="System"><strong>HRMS</strong> (human resource management system)</td><td data-label="Scope">HRIS plus processes: recruitment, performance, learning, payroll integration</td><td data-label="Examples">Darwinbox, Keka, Zoho People</td></tr>
+<tr><td data-label="System"><strong>HCM</strong> (human capital management)</td><td data-label="Scope">HRMS plus strategic talent management: succession, workforce planning, analytics</td><td data-label="Examples">Workday HCM, SAP SuccessFactors, Oracle HCM</td></tr>
+<tr><td data-label="System"><strong>ATS</strong></td><td data-label="Scope">Recruitment workflow</td><td data-label="Examples">Greenhouse, Lever, Darwinbox Recruit</td></tr>
+<tr><td data-label="System"><strong>LMS and LXP</strong></td><td data-label="Scope">Learning administration and experience (Chapter 4)</td><td data-label="Examples">Cornerstone, Degreed</td></tr>
+<tr><td data-label="System"><strong>Engagement and listening platforms</strong></td><td data-label="Scope">Surveys, pulses, recognition</td><td data-label="Examples">Workday Peakon, inFeedo Amber, Vantage Circle</td></tr>
+<tr><td data-label="System"><strong>ESS and MSS</strong></td><td data-label="Scope">Employee and manager self-service</td><td data-label="Examples">Leave, payslips, approvals, profile updates on mobile</td></tr>
+<tr><td data-label="System"><strong>HR chatbots and assistants</strong></td><td data-label="Scope">Answer queries, guide transactions</td><td data-label="Examples">McDonald&rsquo;s &ldquo;Olivia&rdquo; for hourly hiring; IBM&rsquo;s AI assistant for HR queries</td></tr>
+</tbody>
+</table></div><p>The labels HRIS, HRMS and HCM overlap in vendors&rsquo; marketing; the useful distinction is between core records, process automation and strategic talent management.</p><div class="note india">
+<p><span class="label">India context</span>Indian HR technology has grown rapidly. <strong>Darwinbox</strong> (Hyderabad), a unicorn since 2022, serves large Indian groups and has expanded across Asia; <strong>Keka, greytHR, Zoho People, PeopleStrong and ZingHR</strong> serve many mid-sized firms. Indian payroll is complex (state professional tax and labour welfare funds, PF and ESI, two tax regimes, the Labour Codes&rsquo; wage definition), which favours vendors built for India in the mid-market. Large groups and multinationals often run SAP SuccessFactors or Workday globally with a local payroll partner.</p>
+</div><h3>Implementation</h3><ol>
+<li><strong>Select:</strong> define requirements, shortlist vendors, see demonstrations using your own scenarios, check references, compare total cost of ownership.</li>
+<li><strong>Plan:</strong> steering committee, project team, timeline, change-management plan.</li>
+<li><strong>Design:</strong> map and <strong>redesign</strong> processes, define the data model, plan integrations (payroll, finance, attendance devices, single sign-on).</li>
+<li><strong>Configure and test:</strong> data migration and cleansing; user acceptance testing with real users.</li>
+<li><strong>Train and communicate:</strong> managers first, since they approve most transactions.</li>
+<li><strong>Go live and sustain:</strong> a support period after go-live, adoption tracking, continuous improvement and governance.</li>
+</ol><p><strong>Why implementations fail:</strong> migrating dirty data unchanged; automating poor processes instead of redesigning them; excessive customisation that makes upgrades difficult; weak manager adoption; no clear owner after go-live; and underestimating integration with payroll and attendance.</p></div></div><h2 id="s-9-9"><span class="n">9.9</span>Artificial intelligence in HR</h2><div class="row"><div class="side">
+<p><strong>In short</strong></p>
+<p>AI can make HR faster and more personalised, but it can also scale bias, invade privacy and make decisions people cannot explain. Governance keeps humans accountable.</p>
+<p><strong>Recall</strong></p>
+<ul>
+<li>Predictive ML vs generative AI vs agents</li>
+<li>Uses across the lifecycle</li>
+<li>Risks: bias, opacity, hallucination, privacy, surveillance</li>
+<li>Governance principles</li>
+<li>EU AI Act; NYC LL144; India AI Governance Guidelines</li>
+</ul>
+</div><div class="main"><p><strong>Types.</strong> <strong>Predictive machine learning</strong> estimates outcomes from data (attrition risk, candidate match). <strong>Generative AI</strong> produces text and other content (job descriptions, policies, summaries, learning content, answers to employee questions). <strong>AI agents</strong> carry out multi-step tasks such as scheduling interviews or processing routine requests.</p><div class="tw"><table>
+<thead>
+<tr>
+<th>Lifecycle stage</th>
+<th>Uses</th>
+</tr>
+</thead>
+<tbody>
+<tr><td data-label="Lifecycle stage">Recruitment</td><td data-label="Uses">CV screening and matching, chatbots, interview scheduling, JD drafting (Chapter 1)</td></tr>
+<tr><td data-label="Lifecycle stage">Onboarding and service</td><td data-label="Uses">HR assistants answering policy questions, guided transactions</td></tr>
+<tr><td data-label="Lifecycle stage">Learning</td><td data-label="Uses">Personalised recommendations, AI tutors, content creation</td></tr>
+<tr><td data-label="Lifecycle stage">Performance and engagement</td><td data-label="Uses">Feedback summaries, sentiment analysis of comments, rating-pattern checks</td></tr>
+<tr><td data-label="Lifecycle stage">Workforce planning</td><td data-label="Uses">Skills inference, demand forecasting, attrition prediction</td></tr>
+</tbody>
+</table></div><p><strong>Risks.</strong></p><div class="tw"><table>
+<thead>
+<tr>
+<th>Risk</th>
+<th>Example</th>
+<th>Mitigation</th>
+</tr>
+</thead>
+<tbody>
+<tr><td data-label="Risk"><strong>Bias</strong></td><td data-label="Example">Amazon&rsquo;s experimental CV-screening tool learned to penalise CVs mentioning &ldquo;women&rsquo;s&rdquo; (abandoned in 2018)</td><td data-label="Mitigation">Test outcomes by group before and after deployment; remove proxies for protected characteristics</td></tr>
+<tr><td data-label="Risk"><strong>Opacity</strong></td><td data-label="Example">Candidates or employees cannot understand why a decision was made</td><td data-label="Mitigation">Prefer explainable models for decisions about people; document logic</td></tr>
+<tr><td data-label="Risk"><strong>Inaccuracy (hallucination)</strong></td><td data-label="Example">A generative AI assistant gives a wrong answer on leave policy</td><td data-label="Mitigation">Ground answers in approved policy documents; human review for sensitive queries</td></tr>
+<tr><td data-label="Risk"><strong>Privacy and confidentiality</strong></td><td data-label="Example">Employee data entered into public AI tools</td><td data-label="Mitigation">Approved enterprise tools, data-protection agreements, DPDP compliance</td></tr>
+<tr><td data-label="Risk"><strong>Surveillance and trust</strong></td><td data-label="Example">Monitoring keystrokes or sentiment of individuals</td><td data-label="Mitigation">Purpose limitation, aggregation, transparency</td></tr>
+</tbody>
+</table></div><p><strong>Governance principles:</strong> keep a <strong>human accountable</strong> for decisions affecting people; test for bias before and during use; explain to employees and candidates how AI is used; minimise data; assess vendors; and maintain an inventory of AI uses.</p><p><strong>Regulation.</strong> The <strong>EU AI Act</strong> (in force since 2024) classifies AI used in recruitment and employee management as <strong>high-risk</strong>, with obligations on risk management, data quality, transparency and human oversight phasing in from 2026–27. <strong>New York City&rsquo;s Local Law 144</strong> (2023) requires independent bias audits of automated employment decision tools. India has no AI-specific law; MeitY&rsquo;s <strong>India AI Governance Guidelines</strong> (November 2025) set out principles, and the <strong>DPDP Act</strong> is the main legal constraint on HR uses of personal data.</p></div></div><h2 id="s-9-10"><span class="n">9.10</span>The Digital Personal Data Protection Act, 2023</h2><div class="row"><div class="side">
+<p><strong>In short</strong></p>
+<p>The DPDP Act governs digital personal data in India. Employers may process employee data for employment purposes without consent as a legitimate use, but must keep it secure, limited to purpose, and report breaches.</p>
+<p><strong>Recall</strong></p>
+<ul>
+<li>Data principal, fiduciary, processor</li>
+<li>Consent vs legitimate use (s.7)</li>
+<li>Notice</li>
+<li>Duties and rights</li>
+<li>Breach: 72-hour report (Rules)</li>
+<li>SDF and DPO</li>
+<li>Penalties up to ₹250 crore</li>
+<li>Rules: 13 Nov 2025; phased to ~May 2027</li>
+</ul>
+</div><div class="main"><h3>Key concepts</h3><div class="tw"><table>
+<thead>
+<tr>
+<th>Concept</th>
+<th>Meaning for HR</th>
+</tr>
+</thead>
+<tbody>
+<tr><td data-label="Concept"><strong>Data principal</strong></td><td data-label="Meaning for HR">The person the data is about: employee, candidate, former employee</td></tr>
+<tr><td data-label="Concept"><strong>Data fiduciary</strong></td><td data-label="Meaning for HR">The organisation deciding why and how data is processed: the employer</td></tr>
+<tr><td data-label="Concept"><strong>Data processor</strong></td><td data-label="Meaning for HR">An entity processing data on the fiduciary&rsquo;s behalf: payroll provider, HRMS vendor, background-verification agency</td></tr>
+<tr><td data-label="Concept"><strong>Scope</strong></td><td data-label="Meaning for HR">Digital personal data, and personal data collected in non-digital form and later digitised</td></tr>
+</tbody>
+</table></div><h3>Lawful grounds</h3><p>Personal data may be processed either with <strong>consent</strong> (free, specific, informed, unconditional and unambiguous, given after a notice) or for a <strong>legitimate use</strong> listed in section 7. One legitimate use is processing <strong>for the purposes of employment</strong>, or to safeguard the employer from loss or liability, for example to prevent corporate espionage, maintain confidentiality of trade secrets or provide benefits to employees. Processing payroll, attendance and performance data therefore does not require separate consent. Uses outside employment purposes, such as using employees&rsquo; photographs in marketing, require consent.</p><h3>Obligations of the employer as data fiduciary</h3><ul>
+<li>Give a clear <strong>notice</strong> of what data is collected and why, where consent is the basis.</li>
+<li>Keep data <strong>accurate and complete</strong> where it is used for decisions.</li>
+<li>Implement <strong>reasonable security safeguards</strong>.</li>
+<li><strong>Erase</strong> data when the purpose is served and retention is no longer required by law.</li>
+<li>Establish <strong>grievance redressal</strong> for data principals.</li>
+<li>Bind <strong>processors</strong> by contract; the fiduciary remains responsible for their processing.</li>
+<li><strong>Report breaches</strong>: inform affected individuals and the Data Protection Board without delay, and submit a <strong>detailed report to the Board within 72 hours</strong> of becoming aware (DPDP Rules, 2025).</li>
+</ul><p><strong>Rights of data principals:</strong> access to information about processing, correction and erasure, grievance redressal, and nomination of a person to exercise rights on their behalf.</p><p><strong>Significant Data Fiduciaries</strong> (notified by the government on the basis of volume and sensitivity of data and risk) must appoint a <strong>Data Protection Officer</strong> based in India, appoint independent auditors and conduct data protection impact assessments.</p><p><strong>Cross-border transfers</strong> are permitted except to countries the government restricts by notification.</p><p><strong>Penalties</strong> are financial and set by the Data Protection Board: up to <strong>₹250 crore</strong> for failing to take reasonable security safeguards, up to ₹200 crore for failing to notify a breach, with other amounts for other breaches.</p><p><strong>Timeline.</strong> The <strong>DPDP Rules, 2025</strong> were notified on <strong>13 November 2025</strong>. Provisions establishing the Data Protection Board took effect immediately; consent-manager provisions follow after 12 months; most substantive obligations, including notice, security safeguards and breach reporting, apply after <strong>18 months (around May 2027)</strong>.</p><h3>DPDP and GDPR</h3><div class="tw"><table>
+<thead>
+<tr>
+<th>Aspect</th>
+<th>DPDP Act (India)</th>
+<th>GDPR (European Union)</th>
+</tr>
+</thead>
+<tbody>
+<tr><td data-label="Aspect">Data covered</td><td data-label="DPDP Act (India)">Digital personal data, and data digitised later</td><td data-label="GDPR (European Union)">Digital and structured paper records</td></tr>
+<tr><td data-label="Aspect">Employment processing</td><td data-label="DPDP Act (India)">Legitimate use for employment purposes; consent not required</td><td data-label="GDPR (European Union)">Lawful bases such as contract and legitimate interests; consent is generally considered unsuitable in employment because of the power imbalance</td></tr>
+<tr><td data-label="Aspect">Breach notification</td><td data-label="DPDP Act (India)">Detailed report to the Board within 72 hours (Rules)</td><td data-label="GDPR (European Union)">Notify the supervisory authority within 72 hours</td></tr>
+<tr><td data-label="Aspect">Data protection officer</td><td data-label="DPDP Act (India)">Required for Significant Data Fiduciaries</td><td data-label="GDPR (European Union)">Required for large-scale processing of sensitive data and certain other cases</td></tr>
+<tr><td data-label="Aspect">Cross-border transfers</td><td data-label="DPDP Act (India)">Permitted except to restricted countries</td><td data-label="GDPR (European Union)">Permitted to countries with adequate protection or with safeguards</td></tr>
+<tr><td data-label="Aspect">Penalties</td><td data-label="DPDP Act (India)">Fixed maximums up to ₹250 crore per instance</td><td data-label="GDPR (European Union)">Up to €20 million or 4% of global annual turnover</td></tr>
+<tr><td data-label="Aspect">In force</td><td data-label="DPDP Act (India)">Rules notified November 2025; phased to 2027</td><td data-label="GDPR (European Union)">Applies since 25 May 2018</td></tr>
+</tbody>
+</table></div><div class="note fix">
+<p><span class="label">Correction</span>The compendium&rsquo;s comparison table (pp. 111–112) states that under DPDP &ldquo;HR must get written or digital consent for storing employee details&rdquo;. That is incorrect: employment purposes are a legitimate use without consent. It also states there is no breach-reporting deadline; the 2025 Rules require a detailed report within 72 hours. And it describes cross-border transfer rules as unclear, whereas the Act permits transfers except to restricted countries.</p>
+</div><h3>HR implications</h3><ul>
+<li>Map employee and candidate data: what is held, where, why, for how long and who can access it.</li>
+<li>Update notices and contracts; obtain consent for non-employment uses and for background verification where required.</li>
+<li>Review vendor contracts (payroll, HRMS, background verification, benefits brokers).</li>
+<li>Define retention and deletion schedules, for example for rejected candidates.</li>
+<li>Set rules for employee monitoring based on purpose and proportionality.</li>
+<li>Prepare a breach response plan and train HR staff in data handling.</li>
+</ul><p><strong>Principles for employee monitoring</strong> (Gartner): <strong>purpose</strong> (state why data is collected), <strong>minimisation</strong> (collect the least needed), <strong>fairness</strong> (use data to support employees, not only to police them) and <strong>awareness</strong> (tell employees what is collected and how it is used).</p></div></div><h2 id="s-9-11"><span class="n">9.11</span>Interview questions</h2><div class="row"><div class="side">
+<p><strong>In short</strong></p>
+<p>Show that you start from a business question, understand the limits of data and models, and know the legal position.</p>
+</div><div class="main"><div class="qa">
+<p><strong>How would you use analytics to reduce attrition?</strong></p>
+<p>Define the question and decision, segment attrition by role, tenure, manager and pay position, and test hypotheses with data from the HRIS, payroll, ratings, surveys and exit interviews. Build a logistic regression to identify drivers and risk, then design targeted actions such as pay corrections, manager coaching or career moves, pilot them, and measure regretted attrition against a comparison group. Use risk scores to offer support, never to exclude people.</p>
+</div><div class="qa">
+<p><strong>What is the difference between HRIS, HRMS and HCM?</strong></p>
+<p>An HRIS manages core employee records, an HRMS adds HR processes such as recruitment, performance and learning, and an HCM suite adds strategic talent management such as succession, workforce planning and analytics. The labels overlap in vendor marketing.</p>
+</div><div class="qa">
+<p><strong>Do we need employees&rsquo; consent to process payroll data under the DPDP Act?</strong></p>
+<p>No. Processing for employment purposes is a legitimate use under section 7. The employer must still keep the data secure and accurate, use it only for that purpose, delete it when no longer needed, bind vendors by contract and report breaches. Consent is needed for uses outside employment purposes.</p>
+</div><div class="qa">
+<p><strong>What could go wrong with an AI model that predicts attrition?</strong></p>
+<p>It may learn bias from historical data or use proxies for protected characteristics, such as leave patterns that correlate with gender. Managers may stop investing in people flagged as likely to leave, making the prediction self-fulfilling. Sensitive data may be exposed, and trust may suffer if employees discover it. Governance, bias testing, transparency and human decisions reduce these risks.</p>
+</div><div class="qa">
+<p><strong>Will AI replace HR professionals?</strong></p>
+<p>It will replace many HR tasks, such as query handling, screening, drafting and reporting, but not the work that depends on judgement and trust: employee relations, negotiation, change leadership, ethics and coaching managers. HR roles will shift towards analytics, design and advisory work, and HR will lead the workforce side of AI adoption for the whole organisation.</p>
+</div></div></div><p class="sources">Sources: Bersin by Deloitte, HR analytics maturity model; Boudreau and Ramstad, <em>Beyond HR</em> (LAMP framework); Google re:Work (Project Oxygen); Bock, <em>Work Rules!</em> (2015); CNBC (April 2019) on IBM; Salesforce equal-pay updates; Reuters (October 2018) on Amazon; Digital Personal Data Protection Act, 2023 and Rules, 2025 (MeitY, 13 November 2025) with law-firm summaries; Regulation (EU) 2016/679 (GDPR); Regulation (EU) 2024/1689 (AI Act); NYC Local Law 144; MeitY, India AI Governance Guidelines (2025).</p></article>
+    <nav class="pn" aria-label="Chapter navigation"><a class="prev" href="../book/08-change-management.html"><span>Previous</span>Change Management</a><a class="next" href="../book/10-industrial-relations-and-the-ir-code.html"><span>Next</span>Industrial Relations and the Industrial Relations Code, 2020</a></nav>
+  </main>
+</div>
+<script>window.HRKB_ROOT="../";</script>
+<script src="../assets/search-index.js"></script>
+<script src="../assets/app.js"></script>
+</body>
+</html>
